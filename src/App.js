@@ -9,6 +9,9 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Resume from './components/Resume';
+import WhiteBricks from './assets/images/adam-przeniewski-SwBG6zKsXQI-unsplash.jpg';
+import Deck from './components/Deck';
+
 class App extends React.Component {
 
   constructor(props) {
@@ -38,14 +41,21 @@ class App extends React.Component {
   render () {
     return (
       <Router>
-        <Container className='p-0' fluid={true}>
-        
-          <Navbar className='border-bottom' bg='transparent' expand='lg'>
+        <Container 
+          className='p-0' 
+          fluid={true} 
+          style={{ backgroundImage: `url(${WhiteBricks})` }}
+        >
+
+          <Navbar 
+            className='border-bottom nav' 
+            bg='transparent' 
+            expand='lg'>
             <Navbar.Brand>Doug Rosenberg</Navbar.Brand>
 
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
 
-            <Navbar.Collapse id='navbar-toggle'>
+            <Navbar.Collapse classname='nav' id='navbar-toggle'>
               <Nav className='ml-auto'>
                 <Link className='nav-link' to='/'>Home</Link>
                 <Link className='nav-link' to='/about'>About</Link>

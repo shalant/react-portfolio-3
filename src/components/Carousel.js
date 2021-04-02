@@ -5,6 +5,7 @@ import informedTrades from '../assets/images/informedTrades.png'
 import employeeDirectory from '../assets/images/employeeDirectory.png'
 import SchedulerAppScreenshot from '../assets/images/SchedulerAppScreenshot.png'
 import { Container, Row } from 'react-bootstrap';
+import './components.css';
 
 class Carousel extends React.Component {
 

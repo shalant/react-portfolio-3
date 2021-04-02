@@ -42,3 +42,12 @@
   overflow-wrap:normal;
   float: center;
 }
+
+.p-0 {
+  background-size: 80%;
+  opacity: 80%;
+}
+
+.nav {
+  background: orange !important;
+}
