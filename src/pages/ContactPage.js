@@ -62,8 +62,12 @@ class ContactPage extends React.Component {
     render() {
         return(
             <div>
-                <Hero title={this.props.title} />
-
+                <Hero 
+                    title={this.props.title}
+                    subtitle={this.props.subTitle} 
+                />
+                <a className='email' href={"mailto:" + this.props.emailManual}>email</a>
+                <h2 className='email'>doug.rosenberg@gmail.com</h2>
                 <Content>
                     <Form onSubmit={this.handleSubmit}>
                         <Form.Group>

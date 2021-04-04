@@ -14,6 +14,24 @@
     transition: transform 0.5s ease;
 }
 
+.black-text {
+    color: black;
+}
+
+.carousel-control-next-icon {
+    color: black;
+}
+
+.resume {
+    margin-top: 400px;
+    margin-left: 18px;;
+    padding-top: 100px;
+}
+
+.email {
+    padding: 100px;
+}
+
 @media only screen and (max-width: 960px) {
     .carousel-styles {
         width: 100%;
@@ -21,3 +39,4 @@
         size: larger;
     }
 }
+

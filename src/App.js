@@ -33,7 +33,9 @@ class App extends React.Component {
         
       },
       contact: {
-        title: 'Get in Touch'
+        title: 'Get in Touch',
+        subTitle: 'doug.rosenberg@gmail.com',
+        emailManual: 'doug.rosenberg@gmail.com'
       }
     }
   }
@@ -42,9 +44,9 @@ class App extends React.Component {
     return (
       <Router>
         <Container 
-          className='p-0' 
+          className='p-0 details' 
           fluid={true} 
-          style={{ backgroundImage: `url(${WhiteBricks})` }}
+          //style={{ backgroundImage: `url(${WhiteBricks})` }}
         >
 
           <Navbar 
