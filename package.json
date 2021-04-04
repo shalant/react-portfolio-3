@@ -1,4 +1,5 @@
 {
+  "homepage": "http://shalant.github.io/react-portfolio-3",
   "name": "portfolio-site",
   "version": "0.1.0",
   "engines": {
@@ -29,6 +30,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "server": "node app.js",
     "client": "npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
@@ -54,5 +57,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
