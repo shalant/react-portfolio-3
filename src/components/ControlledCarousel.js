@@ -23,32 +23,36 @@ export default function ControlledCarousel() {
         />
         <Carousel.Caption >
           <h3 className='black-text'>Dynamic Wines</h3>
-          <p className='black-text'>A CRUD app using the MERN stack, helps </p>
+          <p className='black-text'>
+              A CRUD app using the MERN stack, helps a restaurant present their wine list with an interactive map, filters, and modals
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
+      
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={informedTrades}
           alt="Second slide"
         />
-
         <Carousel.Caption>
-          <h3 className='black-text'>Employee Directory</h3>
-          <p className='black-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 className='black-text'>Informed Trades</h3>
+          <p className='black-text'>
+            Informed Trades empower users by combining basic stock info with contemporary news stories.
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
+      
       <Carousel.Item>
         <img
           className="d-block w-100"
           src={employeeDirectory}
           alt="Third slide"
         />
-
         <Carousel.Caption>
-          <h3 className='black-text'>Third slide label</h3>
+          <h3 className='black-text'>Employee Directory</h3>
           <p className='black-text'>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            This app takes an employee directory and makes it searchable by a variety of fields. In addition, the list of employees can be sorted by name.
           </p>
         </Carousel.Caption>
       </Carousel.Item>
