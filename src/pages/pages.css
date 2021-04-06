@@ -1,5 +1,6 @@
 .about-me {
-    padding: 3px;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     font-size: large;
     color: black;
     border-style:unset;
@@ -10,8 +11,23 @@
 
 .about-me:hover {
     font-size: larger;
+    //margin-top: 5px;;
 }
 
 .nav {
     margin-left: 2px;
+}
+
+.pic {
+    padding: 0px 0px 10px 0px;
+}
+
+.pic:hover {
+    
+}
+
+@media only screen and (min-width: 900px) {
+    .email {
+        margin-left: 50px;
+    }
 }

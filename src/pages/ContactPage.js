@@ -1,8 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-import { Form } from 'react-bootstrap'
-import { Button } from 'react-bootstrap';
+import { Form, Button, Container } from 'react-bootstrap'
 import Axios from 'axios';
 
 class ContactPage extends React.Component {
@@ -61,7 +60,7 @@ class ContactPage extends React.Component {
 
     render() {
         return(
-            <div>
+            <Container>
                 <Hero 
                     title={this.props.title}
                     subtitle={this.props.subTitle} 
@@ -96,7 +95,7 @@ class ContactPage extends React.Component {
 
 
                 </Content>
-            </div>
+            </Container>
         )
     }
 }

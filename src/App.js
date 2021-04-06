@@ -9,8 +9,8 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Resume from './components/Resume';
-import WhiteBricks from './assets/images/adam-przeniewski-SwBG6zKsXQI-unsplash.jpg';
-import Deck from './components/Deck';
+//import WhiteBricks from './assets/images/adam-przeniewski-SwBG6zKsXQI-unsplash.jpg';
+//import Deck from './components/Deck';
 
 class App extends React.Component {
 
@@ -46,6 +46,7 @@ class App extends React.Component {
         <Container 
           className='p-0 details' 
           fluid={true} 
+          style={{backgroundColor: '#E8E8E8'}}
           //style={{ backgroundImage: `url(${WhiteBricks})` }}
         >
 
