@@ -46,14 +46,15 @@ class App extends React.Component {
         <Container 
           className='p-0 details' 
           fluid={true} 
-          style={{backgroundColor: '#E8E8E8'}}
+          style={{backgroundColor: '#F2F2F2'}}
           //style={{ backgroundImage: `url(${WhiteBricks})` }}
         >
 
           <Navbar 
             className='border-bottom nav' 
             bg='transparent' 
-            expand='lg'>
+            expand='lg'
+          >
             <Navbar.Brand>Doug Rosenberg</Navbar.Brand>
 
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />

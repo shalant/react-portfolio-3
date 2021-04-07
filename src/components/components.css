@@ -32,6 +32,10 @@
     padding: 100px;
 }
 
+.footer {
+    background: #E8E8E8;
+}
+
 @media only screen and (max-width: 960px) {
     .carousel-styles {
         width: 100%;
@@ -40,3 +44,12 @@
     }
 }
 
+@media (max-width: 480px) {
+    .details {
+      font-size: small;
+      word-wrap: break-word;
+    }
+    h1 {
+        font-size: small;
+    }
+}
