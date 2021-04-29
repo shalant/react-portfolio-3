@@ -14,10 +14,10 @@ export default function ControlledCarousel() {
   };
     
   return (
-    <Carousel activeIndex={index} onSelect={handleSelect}>
+    <Carousel activeIndex={index} onSelect={handleSelect} className='carousel'>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={dynamicWine}
           alt="Dynamic Wines"
         />
@@ -31,7 +31,7 @@ export default function ControlledCarousel() {
       
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={informedTrades}
           alt="Second slide"
         />
@@ -45,7 +45,7 @@ export default function ControlledCarousel() {
       
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="d-block w-100 img-fluid"
           src={employeeDirectory}
           alt="Third slide"
         />

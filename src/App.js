@@ -56,17 +56,13 @@ class App extends React.Component {
             expand='lg'
           >
             <Navbar.Brand>Doug Rosenberg</Navbar.Brand>
-
             <Navbar.Toggle className='border-0' aria-controls='navbar-toggle' />
-
             <Navbar.Collapse classname='nav' id='navbar-toggle'>
               <Nav className='ml-auto'>
                 <Link className='nav-link' to='/'>Home</Link>
                 <Link className='nav-link' to='/about'>About</Link>
                 <Link className='nav-link' to='/resume'>Resume</Link>
                 <Link className='nav-link' to='/contact'>Contact</Link>
-
-              
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -95,7 +91,6 @@ class App extends React.Component {
           />
         
           <Footer />
-
         </Container>
       </Router>
     );

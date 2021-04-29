@@ -11,7 +11,7 @@
 
 .about-me:hover {
     font-size: larger;
-    //margin-top: 5px;;
+    margin-top: 5px;;
 }
 
 .nav {
@@ -19,11 +19,15 @@
 }
 
 .pic {
+    align-items: center;
+    width: 50%;
     padding: 0px 0px 10px 0px;
+    box-shadow: 10px 10px #eeecec;
 }
 
 .pic:hover {
     padding: 0px;
+    width: 54%;
 }
 
 @media only screen and (min-width: 900px) {

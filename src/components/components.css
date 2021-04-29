@@ -1,3 +1,5 @@
+
+
 .carousel-styles {
     border: 44px;
 }
@@ -18,6 +20,10 @@
     color: black;
 }
 
+.black-text:hover {
+    color: red;
+}
+
 .carousel-control-next-icon {
     color: black;
 }
@@ -34,6 +40,10 @@
 
 .footer {
     background: #E8E8E8;
+}
+
+.d-block {
+    width: 50px;
 }
 
 @media only screen and (max-width: 960px) {
