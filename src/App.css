@@ -11,7 +11,7 @@
 }
 
 .nav {
-  background: #E8E8E8 !important;
+  background: lightgray !important;
 }
 
 @media (max-width: 480px) {

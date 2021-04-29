@@ -52,7 +52,6 @@ class App extends React.Component {
 
           <Navbar 
             className='border-bottom nav' 
-            bg='transparent' 
             expand='lg'
           >
             <Navbar.Brand>Doug Rosenberg</Navbar.Brand>
