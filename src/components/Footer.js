@@ -12,6 +12,12 @@ function Footer() {
                     <Col className='p=0' md={3} sm={12}>
                         Doug Rosenberg
                     </Col>
+                    <Col>
+                        <a href='https://www.github.com/shalant'>Github</a>
+                    </Col>
+                    <Col>
+                        <a href='https://www.linkedin.com/in/douglasrosenberg/'>LinkedIn</a>
+                    </Col>
                     <Col className='p=0 d-flex fustify-content-end' md={3}>
                         This site was made by Doug Rosenberg
                     </Col>

@@ -62,4 +62,7 @@
     h1 {
         font-size: small;
     }
+    .headline {
+        font-size: medium;
+    }
 }

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
-import dynamicWine from '../assets/images/dynamicWine.png'
+import DW from '../assets/images/DW.jpg'
 import informedTrades from '../assets/images/informedTrades.png'
 import employeeDirectory from '../assets/images/employeeDirectory.png'
 import SchedulerAppScreenshot from '../assets/images/SchedulerAppScreenshot.png';
@@ -18,7 +18,7 @@ export default function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100 img-fluid"
-          src={dynamicWine}
+          src={DW}
           alt="Dynamic Wines"
         />
         <Carousel.Caption >
